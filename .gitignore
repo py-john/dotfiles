@@ -1,0 +1,6 @@
+# gitignore for home directory / dotfiles
+
+.DS_store
+fishd*
+QtProject
+libimobiledevice
