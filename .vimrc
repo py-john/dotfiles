@@ -1,3 +1,4 @@
+" Shell
 set shell=/bin/bash
 
 
@@ -37,6 +38,7 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
+
 
 " Unwanted chars
 set list listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
@@ -104,7 +106,7 @@ nmap <TAB>j \\w
 nmap <TAB>k \\b
 
 
-" Python specific shortcuts
+" Python shortcuts
 inoremap $sb #!/usr/bin/env python3
 inoremap $nm if __name__ == '__main__':<CR>
 inoremap $ibs from bs4 import BeautifulSoup as bs<CR>
