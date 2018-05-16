@@ -38,6 +38,7 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
+nnoremap <silent> <ESC><ESC> <ESC>:noh<CR>
 
 
 " Unwanted chars
