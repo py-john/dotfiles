@@ -41,6 +41,12 @@ set hlsearch
 nnoremap <silent> <ESC><ESC> <ESC>:noh<CR>
 
 
+" Clipboard copy/paste
+vnoremap ç :w !pbcopy<CR><CR>
+nnoremap √ :r !pbpaste<CR>
+inoremap √ <ESC>:r !pbpaste<CR>
+
+
 " Unwanted chars
 set list listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 
