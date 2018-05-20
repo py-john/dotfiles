@@ -86,9 +86,12 @@ nnoremap t<SPACE> :tabnew<CR>
 
 
 " Shortcuts for functions and parameters
-inoremap ,, <ESC>la, ''<ESC>i
 inoremap ;' <ESC>A:<CR>
 inoremap ;; ():<CR>
+inoremap ,, <ESC>la, <ESC>a
+inoremap ,' <ESC>la, ''<ESC>i
+inoremap ,. <ESC>la 
+inoremap ,[ <ESC>la[]<ESC>i
 
 
 " Literal undoubled special chars
@@ -116,7 +119,7 @@ nmap <TAB>k \\b
 " Python shortcuts
 inoremap $sb #!/usr/bin/env python3
 inoremap $nm if __name__ == '__main__':<CR>
-inoremap $ibs from bs4 import BeautifulSoup as bs<CR>
+inoremap $bs from bs4 import BeautifulSoup as bs<CR>
 
 
 " Edit/source vimrc
