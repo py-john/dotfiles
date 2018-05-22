@@ -94,6 +94,13 @@ inoremap ,. <ESC>la
 inoremap ,[ <ESC>la[]<ESC>i
 
 
+" move to beginning/end of line
+nnoremap B ^
+nnoremap E $
+nnoremap $ <nop>
+nnoremap ^ <nop>
+
+
 " Literal undoubled special chars
 inoremap \' '
 inoremap \" "
