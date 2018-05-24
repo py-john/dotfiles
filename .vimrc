@@ -1,4 +1,4 @@
-" Shell
+" Use bash shell, default is fish
 set shell=/bin/bash
 
 
@@ -15,8 +15,11 @@ call matchadd('ColorColumn', '\%80v', 100)
 
 
 " Tab formatting
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=4
+set shiftwidth=4
+set expandtab
 set shiftround
+set nowrap
 
 
 " Line numbers and relative toggle
